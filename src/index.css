@@ -6,28 +6,33 @@
 }
 
 *{
+  
   margin: 0;
 }
 body{
+  background-image: url(/ProjectTracker/public/pexels-felixmittermeier-956999.jpg);
   font-family: Poppins,sans-serif;
   max-width: 1280px;
   margin:  0px auto;
   
 }
  .container{
+  
   max-width: 1280px;
   margin:  0px auto;
   
  }
 nav{
+  color: black;
   display: flex;
   justify-content: space-between;
   height: 72px;
   justify-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav ul {
+  color: wheat ;
   display: flex;
   justify-content: space-between;
   gap: 34px;
@@ -84,3 +89,4 @@ button{
   font-size: 14px;
   margin-bottom: 8px;
 }
+
